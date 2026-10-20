@@ -17,19 +17,6 @@ Multi-Echo GRE MRI 복소수 데이터를 대상으로 **6가지 MP-PCA 기반 �
 | 뇌 영역 마스크 | `mask_brain`: 256 × 224 × 176 |
 | 분석 대상 | Brain Mask 내부 voxel |
 
-**복소 MRI 신호**
-
-$$
-S(x,y,z,e)=R(x,y,z,e)+jI(x,y,z,e)
-$$
-
-**Magnitude 영상**
-
-$$
-M(x,y,z,e)=|S(x,y,z,e)|=\sqrt{R(x,y,z,e)^2+I(x,y,z,e)^2}
-$$
-
-여기서 `R`은 실수부, `I`는 허수부, `e`는 Echo 번호입니다.
 
 ### Gaussian noise 생성 (`02_Add_noise.ipynb`)
 
