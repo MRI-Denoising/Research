@@ -59,23 +59,6 @@ $$
 | `07_Complex_Wishart.ipynb` | **Complex Wishart** | 복소수 공분산 특성을 고려한 별도 MP-PCA 구현 활용 |
 | `08_Hybrid_Multi_Echo.ipynb` | **Hybrid Multi-Echo** | Multi-Echo 신호의 특성을 함께 활용하는 Hybrid 방식 |
 
-**Split 방식의 재결합**
-
-$$
-\widehat S=D(R)+jD(I)
-$$
-
-여기서 `D`는 각각의 데이터에 적용하는 디노이징 연산입니다.
-
-**Combined 방식의 채널 구성**
-
-$$
-X=[R_1,R_2,\ldots,R_6,I_1,I_2,\ldots,I_6]
-$$
-
-원래의 입력이 `(X, Y, Z, 6)` 복소수 배열이라면, Combined 방식은 `(X, Y, Z, 12)` 실수 채널 배열로 바꾼 뒤 처리합니다.
-
-> 참고: Complex Wishart 및 Hybrid Multi-Echo 방식은 별도 Python 구현 모듈에 의존합니다. 내부 연산식을 노트북만으로 완전히 확인할 수 없으므로 여기에는 입력·처리 관점의 개요만 기재했습니다.
 
 ## 4. 성능 평가 (`09_RSNR_Comparison_with_Visualization.ipynb`)
 
