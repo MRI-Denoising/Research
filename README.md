@@ -105,11 +105,7 @@ $$
 
 현재 실험 조건에서는 **Real/Imag Combined** 방식이 세 가지 noise 수준 모두에서 가장 높은 평균 RSNR을 보였습니다.
 
-**RSNR 개선율 계산식**
 
-$$
-\mathrm{Improvement}(\%)=\frac{\mathrm{RSNR}_{\mathrm{denoised}}-\mathrm{RSNR}_{\mathrm{noisy}}}{\mathrm{RSNR}_{\mathrm{noisy}}}\times 100
-$$
 
 ### 결과 시각화
 
