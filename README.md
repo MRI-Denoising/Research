@@ -54,7 +54,7 @@ $$
 **RSNR 계산식**
 
 $$
-\mathrm{RSNR}=\frac{\sqrt{\frac{1}{N}\sum_{i=1}^{N}M_{\mathrm{ref},i}^{2}}}{\sqrt{\frac{1}{N}\sum_{i=1}^{N}(M_{\mathrm{test},i}-M_{\mathrm{ref},i})^{2}}
+\mathrm{RSNR}=\frac{\sqrt{\frac{1}{N}\sum_{i=1}^{N}M_{\mathrm{ref},i}^{2}}}{\sqrt{\frac{1}{N}\sum_{i=1}^{N}(M_{\mathrm{test},i}-M_{\mathrm{ref},i})^{2}}}
 $$
 
 - `M_ref`: 원본 Magnitude, `M_test`: Noisy 또는 Denoised Magnitude
